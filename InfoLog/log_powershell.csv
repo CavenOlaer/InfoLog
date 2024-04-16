@@ -1,0 +1,21 @@
+Level,Date and Time,Source,Event ID,Task Category
+Information,31/03/2024 09:17:01 م,PowerShell,403,(4),"Engine state is changed from Available to Stopped. 
+
+Details: 
+	NewEngineState=Stopped
+	PreviousEngineState=Available
+
+	SequenceNumber=15
+
+	HostName=ConsoleHost
+	HostVersion=5.1.19041.610
+	HostId=dbd0cf38-9f7d-470f-be45-676be1eaa9cc
+	HostApplication=powershell.exe -ExecutionPolicy Restricted -Command $Res = 0; $Infs = Get-Item -Path ($env:WinDir + '\inf\*.inf'); foreach ($Inf in $Infs) { $Data = Get-Content $Inf.FullName; if ($Data -match '\[defaultinstall.nt(amd64|arm|arm64|x86)\]') { $Res = 1; break; } } Write-Host 'Final result:', $Res;
+	EngineVersion=5.1.19041.610
+	RunspaceId=ffb59845-d615-4cf0-80f7-90f4df133f00
+	PipelineId=
+	CommandName=
+	CommandType=
+	ScriptName=
+	CommandPath=
+	CommandLine="
